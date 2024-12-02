@@ -1,0 +1,92 @@
+/* @import 'meyer-reset.css'; */
+/*https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd */
+
+/* * {
+    border: 1px solid red;
+} */
+
+ 
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #778DA9;
+    color: #E0E1DD;
+    padding: 40px;
+}
+
+ 
+
+main {
+    flex-grow: 1;
+}
+
+ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #0D1B2A;
+    padding: 5px;
+}
+
+ 
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    /* border: 2px solid purple; */
+    flex-wrap: wrap;
+}
+
+.navigation ul{
+    display: flex;
+}
+
+ 
+
+.navigation a{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #E0E1DD;
+    text-decoration: none;
+    /* border: 5px solid green; */
+}
+
+ 
+.background {
+    background-color: #415A77;  
+    padding-top: 1px;
+    
+}
+.diptych {
+    display: flex;
+    justify-content: space-around;
+    background-color: #415A77;
+    padding-bottom: 60px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0D1B2A;
+    padding: 0px 20px;
+}
+
+.social {
+    display: flex;
+    gap: 30px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.logo {
+    padding-left: 2px;
+}

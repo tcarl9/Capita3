@@ -16,13 +16,10 @@ body{
     padding: 40px;
 }
 
- 
-
 main {
     flex-grow: 1;
 }
 
- 
 
 header {
     display: flex;
@@ -31,8 +28,6 @@ header {
     background-color: #0D1B2A;
     padding: 5px;
 }
-
- 
 
 .navigation {
     display: flex;
@@ -45,8 +40,6 @@ header {
 .navigation ul{
     display: flex;
 }
-
- 
 
 .navigation a{
     display: flex;
@@ -91,6 +84,11 @@ footer a {
 h1 {
     text-align: center;
     text-decoration: underline;
+    font-size: 32px;
+}
+
+p, ul, li, figure {
+    font-size: 20px;
 }
 
 .logo {

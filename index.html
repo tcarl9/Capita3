@@ -11,12 +11,12 @@
     <title>About Me - Travis Carlson</title>
 
     <link rel="stylesheet" href="styles.css">
-    <script src="scrips.js"></script>
+
+    
 
 </head>
 
 <body>
-
     <header>
 
         <div class="logo">
@@ -194,12 +194,75 @@
         <section id="status">
 
             <h1>Status of my Milestone and Next Steps</h1>
-
-            <div class="w3-light-grey w3-round">
-                <div class="w3-container w3-blue w3-round" style="width:25%">25%</div>
+              <div class="progress-container">
+          
+                  <div class="progress-bar" id="progress-bar"></div>
+          
               </div>
 
-              <ul class="nextSteps">
+              <div class="checkboxes">
+          
+                <input type="checkbox" class="task"> Meet and continue meeting with programming advisor<br>
+        
+                <input type="checkbox" class="task"> Vet Milestone Plan, skills, and projects with advisor<br>
+        
+                <input type="checkbox" class="task"> Stay active in the programming community<br>
+        
+                <input type="checkbox" class="task"> Complete The Odin Project - Fundamentals course<br>
+        
+                <input type="checkbox" class="task"> Complete The Odin Project - Full Stack Developer course<br>
+        
+                <input type="checkbox" class="task"> Have five to ten strong portfolio projects linked to my resume<br>
+        
+                <input type="checkbox" class="task"> Meet with Mayo HR Recruiter to ask what would set me apart from other applicants<br>
+        
+                <input type="checkbox" class="task"> Practice Leetcode and Tech Interview practice questions<br>
+        
+                <input type="checkbox" class="task"> Read two additional programming books<br>
+        
+                <input type="checkbox" class="task"> Practice interviewing with programming advisor<br>
+        
+            </div>
+        
+            <script>
+
+                // JavaScript to update the progress bar
+        
+                const checkboxes = document.querySelectorAll('.task');
+        
+                const progressBar = document.getElementById('progress-bar');
+        
+         
+        
+                function updateProgressBar() {
+        
+                    const totalCheckboxes = checkboxes.length;
+        
+                    const checkedCheckboxes = document.querySelectorAll('.task:checked').length;
+        
+                    const progressPercentage = (checkedCheckboxes / totalCheckboxes) * 100;
+        
+         
+        
+                    progressBar.style.width = progressPercentage + '%';
+        
+                    progressBar.textContent = Math.round(progressPercentage) + '%';
+        
+                }
+        
+         
+        
+                // Add event listener to all checkboxes
+        
+                checkboxes.forEach(checkbox => {
+        
+                    checkbox.addEventListener('change', updateProgressBar);
+        
+                });
+        
+            </script>
+    
+              <!-- <ul class="nextSteps">
                     <li>Meet and continue meeting with programming advisor</li>
                     <li>Vet Milestone Plan, skills, and projects with advisor</li>
                     <li>Stay active in the programming community</li>
@@ -211,7 +274,7 @@
                     <li>Read two additional programming books</li>
                     <li>Practice interviewing with programming advisor</li>
 
-              </ul>
+              </ul> -->
 
 
         </section>

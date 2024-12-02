@@ -39,6 +39,7 @@ header {
     gap: 30px;
     /* border: 2px solid purple; */
     flex-wrap: wrap;
+    padding-right: 20px;
 }
 
 .navigation ul{
@@ -57,7 +58,7 @@ header {
 }
 
  
-.background {
+#background {
     background-color: #415A77;  
     padding-top: 1px;
     
@@ -75,6 +76,11 @@ footer {
     justify-content: space-between;
     background-color: #0D1B2A;
     padding: 0px 20px;
+}
+
+footer a {
+    color: #E0E1DD;
+    text-decoration: none;
 }
 
 .social {

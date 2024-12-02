@@ -11,6 +11,7 @@
     <title>About Me - Travis Carlson</title>
 
     <link rel="stylesheet" href="styles.css">
+    <script src="scrips.js"></script>
 
 </head>
 
@@ -45,11 +46,11 @@
 
             <div class="diptych">
 
-            <img src="images/selfie.jpg" alt="Picture of me" width="15%" height="15%">
+            <img class="selfie" src="images/selfie.jpg" alt="Picture of me" width="15%" height="15%">
 
                 <div class="right-column">
 
-                    <h2>About me</h2>
+                    <h2>About me:</h2>
 
                     <p>Cohort #71</p>
 
@@ -123,7 +124,7 @@
                                     <li>Harvard CS50</li>
                                     <li>Harvard CS50p</li>
                                 <ul>Books</ul>
-                                <li>Grokking algorithms</li>
+                                <li>Grokking Algorithms</li>
                                 <li>The Pragmatic Programmer</li>
                             </ul>
                             </figure>
@@ -137,31 +138,57 @@
         <section id="now">
 
             <h1>Where I am Now</h1>
-            <p>Since utilizing Capita3 materials, I have been able to update my long-term
-                milestone plan with additional tasks to complete to address any knowledge gaps and combat the internal and external barriers that I face.
-                I now see that I need to create a team of experts and cheerleaders to help me in accomplishing
-                my goals within the timeframe that I set. 
-            </p>
-
-            <p>My leadership and how I view myself has also changed during my time in Leadership Launch. I am starting to fell like I can call myself a programmer. 
-                This mindset will help greatly when interviewing, as I will be more confident in myself. I also have a well thought out plan with deadlines that I can execute. 
-                Having this plan will help hold myself accountable to reach my goals by the deadline that I set for myself.
-            </p>
-
+        
+            <div class="cards">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                    <!-- <img src="images/selfie.jpg" style="width:300px;height:300px;"> -->
+                    <h1>Milestone</h1>
+                    <p>What progress did I achieve during this program?</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Since utilizing Capita3 materials, I have been able to update my long-term
+                            milestone plan with additional tasks to complete to address any knowledge gaps and combat the internal and external barriers that I face.
+                            I now see that I need to create a team of experts and cheerleaders to help me in accomplishing
+                            my goals within the timeframe that I set. 
+                        </p>
+                    </div>
+             </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <!-- <img src="images/selfie.jpg" style="width:300px;height:300px;"> -->
+                        <h1>Leadership</h1>
+                        <p>How am I being now, how am I different?</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>My leadership and how I view myself has also changed during my time in Leadership Launch. I am starting to fell like I can call myself a programmer. 
+                            This mindset will help greatly when interviewing, as I will be more confident in myself. I also have a well thought out plan with deadlines that I can execute. 
+                            Having this plan will help hold myself accountable to reach my goals by the deadline that I set for myself.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
         </section>
 
         <section id="difference">
             <h1>What Made the Difference</h1>
-            <p>The biggest difference in my growth as a leader came from facing my fears of joining a community and asking for help.
-                I have always struggled to ask for help, but I now realize that in order to efficiely reach my goal, I will need people in my corner.
-            </p>
-            <p>My biggest "Aha" moment came from identifying internal barriers and recognizing that we develop
-                strengths or "work arounds" to avoide facing these fears. I have always viewed these work arounds as just strengths
-                but I now see that in order to be the leader that I want to be, I need to also address my concerns.
-            </p>
-            <p>The impact of facing my fears will allow me to gain a network of people to help me reach my goal in a timely manner.
-                It will also help me identify the best plan and projects to create to give me the best chance at getting hired. 
-            </p>
+            <details>
+                <summary>"Aha" Moment</summary>
+                <p>My biggest "Aha" moment came from identifying internal barriers and recognizing that we develop
+                    strengths or "work arounds" to avoide facing these fears. I have always viewed these work arounds as just strengths
+                    but I now see that in order to be the leader that I want to be, I need to also address my concerns.
+                </p>
+            </details>
+            <details>
+                <summary>Impact</summary>
+                <p>The impact of facing my fears will allow me to gain a network of people to help me reach my goal in a timely manner.
+                    It will also help me identify the best plan and projects to create to give me the best chance at getting hired. 
+                </p>
+            </details>
         </section>
 
         <section id="status">

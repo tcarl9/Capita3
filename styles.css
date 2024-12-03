@@ -54,14 +54,14 @@ header {
 #background {
     background-color: #415A77;  
     padding-top: 1px;
-    
+    border-radius: 0 0 25px 25px;    
 }
 .diptych {
     display: flex;
     justify-content: space-evenly;
     background-color: #415A77;
     padding-bottom: 60px;
-
+    border-radius: 0 0 25px 25px; 
 }
 
 .selfie {
@@ -199,12 +199,43 @@ p, ul, li, figure {
 
   details {
     font-size: 20px;
+    padding-bottom: 10px;
   }
 
   summary {
     font-size: 24px;
+    color:#E0E1DD;
+    background-color: #415A77;
+    padding-left: 10px;
   }
 
   h2 {
     font-size: 28px;
   }
+
+  /* Style for the progress bar */
+
+.progress-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+
+
+.progress-bar {
+    height: 20px;
+    width: 0;
+    background-color: #415A77;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.checkboxes {
+    padding-bottom: 20px;
+    font-size: 20px;
+}

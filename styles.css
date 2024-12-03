@@ -101,8 +101,8 @@ p, ul, li, figure {
 
 .flip-card {
     background-color: transparent;
-    width: 450px;
-    height: 450px;
+    width: 275px;
+    height: 275px;
     perspective: 1000px;
     display: flex;
     flex-direction: column;
